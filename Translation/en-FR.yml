@@ -1,6 +1,6 @@
-en-GB: 
-#SETTING PAGE
-  lang_name_t: 'English'
+en-FR: 
+#PAGE DE PARAMETRE
+  lang_name_t: 'Francais'
 
   min_time_t_1: '1min'
   min_time_t_2: '2min'
@@ -9,21 +9,21 @@ en-GB:
   min_time_t_10: '10min'
   min_time_t_15: '15min'
   min_time_t_60: '60min' 
-  sleep_time_t_always: 'Always On'
+  sleep_time_t_always: 'Toujours activé'
   
   setting_gen_t: 'General'
-  setting_net_t: 'Network'
-  setting_gen_t_dev: 'Device:'
-  setting_gen_t_man: 'Manufacturer:'
-  setting_gen_t_lang: 'Language:'
-  setting_gen_t_fw: 'Firmware:'
-  setting_gen_t_slp: 'AutoSleep:'
-  setting_gen_t_backlight: 'Backlight brightness:'
-  setting_gen_t_reb: 'Restart'
-  setting_gen_t_rst: 'Restore Factory Settings'
-#SETTING PAGE END
+  setting_net_t: 'Réseau'
+  setting_gen_t_dev: 'Appareil:'
+  setting_gen_t_man: 'Fabricant:'
+  setting_gen_t_lang: 'Langue:'
+  setting_gen_t_fw: 'Micrologiciel:'
+  setting_gen_t_slp: 'Veille automatique:'
+  setting_gen_t_backlight: 'Luminosité du rétroélairage:'
+  setting_gen_t_reb: 'Redémarage'
+  setting_gen_t_rst: 'Restaurer les paramétre d'usine'
+#FIN DE LA PAGE DE PARAMETRAGES
 
-#BUTTONS
+#BOUTONS
   btn_cancel: 'Cancel'
   btn_ok: 'OK'
   btn_restart: 'Restart'
@@ -572,4 +572,5 @@ en-GB:
   tip_skip_obj_selected: '#ff0000 %d# objects is selected'
   tip_dry_ing: 'Drying'
   tip_dry_prepare_ok: 'Ready, please check if the printer tool head has returned to the preset position before clicking start.'
+
 #NEW ADD END
