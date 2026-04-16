@@ -1,0 +1,231 @@
+fr-FR: 
+#SETTING PAGE
+  lang_name_t: 'Français'
+
+  min_time_t_1: '1 min'
+  min_time_t_2: '2 min'
+  min_time_t_3: '3 min'
+  min_time_t_5: '5 min'
+  min_time_t_10: '10 min'
+  min_time_t_15: '15 min'
+  min_time_t_60: '60 min' 
+  sleep_time_t_always: 'Toujours ON'
+  
+  setting_gen_t: 'Général'
+  setting_net_t: 'Réseau'
+  setting_gen_t_dev: 'Appareil :'
+  setting_gen_t_man: 'Fabr. :'
+  setting_gen_t_lang: 'Langue :'
+  setting_gen_t_fw: 'Firmware :'
+  setting_gen_t_slp: 'Veille auto :'
+  setting_gen_t_backlight: 'Luminosité rétro :'
+  setting_gen_t_reb: 'Redémarrer'
+  setting_gen_t_rst: 'Param. usine'
+#SETTING PAGE END
+
+#BUTTONS
+  btn_cancel: 'Annuler'
+  btn_ok: 'OK'
+  btn_restart: 'Relancer'
+  btn_refresh: 'Actualiser'
+  btn_confirm: 'Confirmer'
+  btn_next: 'Suivant'
+  btn_back: 'Retour'
+  btn_del: 'Supprimer'
+  btn_scan: 'Scanner'
+  btn_factory: 'Réinit. usine'
+  btn_close: 'Fermer'
+  btn_ignore_all: 'Tout ignorer'
+  btn_load: 'Charger' 
+  btn_unload: 'Décharger' 
+  btn_retry: 'Réessayer' 
+  btn_abort: 'Abandonner'
+  btn_print: 'Imprimer'
+  btn_remove: 'Retirer'
+  btn_stop: 'Arrêter'
+  btn_pause: 'Pause'
+  btn_resume: 'Reprendre'
+  btn_filament: 'Filament'
+  btn_done: 'Terminé'
+  btn_stop_all: 'Stop tout'
+  btn_format: 'Formater'
+  btn_disconnect: 'Déconnecter'
+  btn_edit: 'Modifier'
+  btn_yes: 'Oui'
+  btn_no: 'Non'
+  btn_reset: 'Reset'
+  btn_add_printer: '+ Imprimante'
+  btn_add_group: '+ Groupe'
+  btn_goto_printers: 'Multi-appareils'
+  btn_goto_wifi: 'Réseau Wi-Fi'
+  btn_ignore: 'Ignorer'
+  btn_goto_login: 'Connexion'
+  btn_dry: 'Séchage'
+  btn_dry_prepare: 'Préparer'
+  btn_dry_start: 'Démarrer'
+  btn_skip_obj: 'Passer'
+#BUTTONS END
+
+  set_net_wifi_scaned: 'Wi-Fi détectés'
+  welcome_tip: 'Veuillez vous connecter au Wi-Fi à droite. Saisissez le mot de passe, actualisez si besoin, puis faites suivant.'
+  tip_scan_qrcode: 'Scannez le QR code pour le manuel en ligne.'
+  loading: 'Chargement...'  
+  top_wifi_connect: 'Connexion Wi-Fi %s'
+  top_wifi_connect_fail: 'Échec Wi-Fi : %s'
+  top_wifi_disconnected: 'Wi-Fi déconnecté : %s'
+  top_print_connecting: 'Connexion Imp. %d : %s'
+  top_print_connected: 'Imp. %d connectée : %s'
+  top_print_connect_fail: 'Échec Imp. %d : %s'
+
+#PRINT
+  panda_touch: 'Panda Touch'
+  printer_model: 'Modèle :'
+  printer_name: 'Nom :'   
+  scan_print_t_acescd: 'Code accès :'
+  scan_print_t_ip: 'IP Imp. :'
+  filament_t_color: 'Coul. fil. :'
+  filament_t_matrl: 'Mat. fil. :'
+  nozzle_t_diameter: 'Diam. buse :'
+  nozzle_t_matrl: 'Mat. buse :'
+  wifi_c_wait_cancel: 'Annulation...'
+  print_bed_leveling: 'Niv. plateau'
+  print_flow_calibration: 'Calib. débit'
+  print_timelapse: 'Timelapse' 
+  prints_in_sync: 'Imp. synchronisées : %d'
+  start_print_confirm: |
+   Avant de lancer l'impression :
+   1. Fichier tranché pour la bonne imprimante.
+   2. Paramètres filament conformes à l'AMS.
+  print_using_ams: 'Utiliser AMS'
+  print_ams: 'Bobine ext.'
+  print_canceled: 'Annulé'
+  print_finished: 'Terminé'
+  print_reprint: 'Réimprimer'
+  bed_preheating: 'Chauffe plateau'
+  nozzle_clean: 'Nettoyage buse'
+  bed_auto_leveing: 'Niv. auto plateau'
+  print_preparing: 'Préparation...'
+  print_t: 'Imprimante'
+  print_not_find: 'Aucune imprimante trouvée. Vérifiez le réseau.'
+  filament_unknown: 'Filament inconnu. Modifier les infos ?'
+  printer_add_repeat: 'Imprimante déjà présente.'
+  printer_has_add: 'Déjà ajoutée'
+  printer_busy: |
+   
+   
+   Impression en cours
+  nozzle_temperature: 'Temp. Buse'
+  bambu_info_readonly: 'Infos Bambu Filament en lecture seule (RFID).'
+  setting_slot_not_sup: 'Modif. slots impossible pendant l''impression.'
+  filament_minimum: 'Min'
+  filament_maximum: 'Max'
+  filament_unknown_type: 'Inconnu'
+
+#TIPS  
+  tip_input_optional: '(Optionnel)'
+  tip_input_name: '(Requis) Nom de l''imprimante'
+  tip_input_ip: '(Requis) IP'
+  tip_input_acescd: '(Requis) Code d''accès'
+  tip_input_sn: '(Requis) SN'
+  pop_tip_add_dev: 'Confirmer l''ajout au Panda Touch ?'
+  pop_tip_restart: 'Redémarrer le Panda Touch ?'
+  pop_tip_factory: 'Rétablir les paramètres d''usine ? (Oubli Wi-Fi et Imprimantes)'
+  pop_tip_print_abort: 'Abandonner les tâches en cours ?'
+  tip_not_insert_sdcard: 'Carte SD absente.'
+  tip_not_insert_usb_flash: 'Clé USB absente.'
+  tip_not_select_print: 'Sélectionnez au moins une imprimante.'
+  tip_remove_refuse: 'Seule une imprimante déconnectée peut être supprimée.'
+  tip_remove_confirm: 'Supprimer cette imprimante ?'
+  tip_master_must: 'Il faut au moins une imprimante "Leader".'
+  tip_mainly_query: 'Voulez-vous définir cette imprimante comme "Leader" ?'
+  tip_printer_max: 'Max %d imprimantes par Panda Touch.'
+  tip_pause_all: 'Mettre tout en pause ?'
+  tip_stop_all: 'Arrêt définitif. Tout stopper ?'
+  tip_wifi_disconnected: 'Wi-Fi perdu. Vérifiez le signal.'
+  tip_parsing_gcode: 'Erreur Gcode.3mf. Renvoyez le fichier.'
+  tip_front_cover: 'Pause : Capot avant tombé. Remontez-le.'
+  tip_filament_runout: 'Fin de filament. Rechargez et reprenez.'
+  tip_pause_print: 'Suspendre l''impression ?'
+  tip_stop_print: 'Arrêter l''impression ? (Définitif)'
+  tip_ams_runout: 'AMS vide. Insérez du filament et réessayez.'
+  tip_ams_overload: 'Moteur AMS surchargé. Bobine coincée ?'
+  tip_failed_feed: 'Échec chargement. Filament/bobine coincé ?'
+  tip_failed_pull: 'Échec retrait. Buse bouchée ou fil cassé ?'
+  tip_failed_extrude: 'Échec extrusion. Buse bouchée ?'
+  tip_select_model: 'Choisissez le modèle'
+  tip_ams_busy: 'AMS occupé. Réessayez plus tard.'
+  tip_firmware: 'Scannez pour l''historique des mises à jour.'
+
+#CONTROL
+  ctl_top_t_temp_axis: 'Temp/Axes'
+  ctl_top_t_filament: 'Filament'
+  ctl_t_part: 'Pièce'
+  ctl_t_aux: 'Aux'
+  ctl_t_chamber: 'Chambre'
+  sw_t_on: 'ON'
+  sw_t_off: 'OFF'
+  ctl_t_speed: 'Vitesse'
+  ctl_t_speed_silent: 'Silence'
+  ctl_t_speed_standard: 'Standard'
+  ctl_t_speed_sport: 'Sport'
+  ctl_t_speed_ludicrous: 'Ludicrous' 
+  ctl_t_extruder: 'Extrudeur' 
+  ctl_t_temp_high: 'Max %ld℃' 
+  ctl_t_filament_tip: 'Poussez le filament dans la tête avant de charger.'  
+  ctl_t_to_load: 'Charger'
+  ctl_t_to_unload: 'Décharger'
+  ctl_t_heat_nozzle_temp: 'Chauffer buse'
+  ctl_t_push_new_filament: 'Pousser fil.'
+  ctl_t_grab_new_filament: 'Saisir fil.'
+  ctl_t_purge_old_filament: 'Purger ancien'
+  ctl_t_cut_filament: 'Couper fil.'
+  ctl_t_back_filament: 'Retirer fil.'
+  content_empty: 'Vide'
+  tpu_not_supported: '"%s %s" non supporté par l''AMS.'
+
+#MQTT
+  ctl_t_mqtt_ctl_mode: 'Contrôle'
+  ctl_t_mqtt_statu_master: 'Leader'
+  ctl_t_mqtt_statu_slave: 'Suiveur'
+  ctl_t_mqtt_status_sync: 'Sync'
+  ctl_t_mqtt_disconected: 'Déconnecté'
+  printer_connecting: 'Connexion...'
+  printer_disconnected: 'Déconnectée'
+  printer_connected: 'Connectée'
+
+#FILE
+  file_t_usb_flash_driver: 'Clé USB'
+  file_t_name: 'Nom'
+  file_t_date: 'Date'
+  file_t_size: 'Taille'
+  file_s_transmitting: 'Envoi...'
+  file_s_printers_in_sync: 'Sync : %d/%d'
+  file_s_failed: 'Échec'
+  file_s_printing: 'Impression'
+  file_s_waiting: 'Attente'
+
+#CLOUD
+  t_region: 'Région :'
+  t_account: 'Compte :'
+  t_password: 'Code :'
+  t_enable_could: 'Activer Cloud'
+  tip_printer_work_in_cloud: 'Mode Cloud'
+  tip_printer_work_in_local: 'Mode LAN'
+
+#NEW ADD
+  t_is_printing: 'En cours'
+  t_is_idle: 'Libre'
+ 
+ 
+
+
+ 
+ 
+
+ 
+ 
+
+ 
+
+  
+   
